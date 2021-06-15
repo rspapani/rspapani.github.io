@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+body{
+	background-color: #EFE0B9;
+/*	font-family: 'Playfair Display', serif;
+	font-family: 'Barlow', sans-serif;
+	font-family: 'Libre Baskerville', serif;
+*/	
+	font-family: 'Merriweather', serif;
+}
+
+.everything {
+	position: relative;
+	width: 100%;
+	min-height: calc(100vh - 3rem);
+	transform-origin: 50% 50%;
+	perspective-origin: 50% 55%;
+	perspective: 80rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-flow: column nowrap;
+}
+
+.dcard {
+	padding: 3rem;
+	background: #fcfbfa;
+	height: 8rem;
+	width: 20rem;
+	color: #44372f;
+	text-align: center;
+	box-shadow: 0 1px 2px 0 rgba(42, 33, 27, 0.15), 0 2px 4px 0 rgba(42, 33, 27, 0.06),
+		0 3px 14px 0 rgba(43, 34, 27, 0.1), 0 6px 35px 0 rgba(43, 34, 28, 0.25);
+}
+
+.subtit {
+}
+

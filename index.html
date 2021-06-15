@@ -1,1 +1,40 @@
-<p> Hey imagine there's a good website here, now imagine hiring Rishi Papani, now use your willpower to bring your imagination into reality! (you can forget about that good website though)</p>
+
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>I came here for a free T-shirt and to kick ass, and I'm already wearing my free T-shirt - me at Hackathons</title>
+        <link rel="stylesheet" href="./css/my-style.css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script> 
+	<script> 
+		//var words = ["S", "St", "Stu", "Stud", "Stude"];
+		//["Student", "Software Developer", "Mathematician", "Haskell Enthusiast", "Student"]; 
+		// var words = ["Student", "Software Developer", "Mathematician", "Haskell Enthusiast"];
+		var words = [" ","S","St","Stu","Stud","Stude","Studen","Student","Student","Student","Student","Student"," ","S","So","Sof","Soft","Softw","Softwa","Softwar","Software","Software ","Software D","Software De","Software Dev","Software Deve","Software Devel","Software Develo","Software Develop","Software Develope","Software Developer","Software Developer","Software Developer","Software Developer","Software Developer"," ","M","Ma","Mat","Math","Mathe","Mathem","Mathema","Mathemat","Mathemati","Mathematic","Mathematici","Mathematicia","Mathematician","Mathematician","Mathematician","Mathematician","Mathematician"," ","H","Ha","Has","Hask","Haske","Haskel","Haskell","Haskell ","Haskell E","Haskell En","Haskell Ent","Haskell Enth","Haskell Enthu","Haskell Enthus","Haskell Enthusi","Haskell Enthusia","Haskell Enthusias","Haskell Enthusiast","Haskell Enthusiast","Haskell Enthusiast","Haskell Enthusiast","Haskell Enthusiast"];
+		var rn = -1;
+		
+		var t = setInterval(function() { 
+			//var rn = Math.round( Math.random() * (words.length-1) ); 
+			rn++;
+			rn %= (words.length);
+			$('#changing').html( words[ rn ] );
+		}, 250); 
+	</script> 
+    </head>
+    <body>
+        <main>
+
+<div class="everything">
+<div class="dcard">
+    <h1>Rishi Papani</h1>
+
+    <div class="subtit"> <h3> <span id="changing"> </span> </h3> </div>
+
+</div>
+</div>
+	</main>
+    </body>
+</html>
+
