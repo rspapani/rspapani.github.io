@@ -69,6 +69,11 @@ body{
     	line-height: 3rem;
 }
 
+.imglink{
+ color: inherit;
+ text-decoration: underline;
+}
+
 .textlink{
   color: inherit;
   text-decoration: underline;
