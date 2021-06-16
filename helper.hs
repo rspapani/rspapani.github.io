@@ -1,7 +1,7 @@
 -- To generate the list of words in the JS portion of index.html
 
 -- The word list
-wl = ["Student", "Software Developer", "Mathematician", "Haskell Enthusiast"]
+wl = ["Student", "Software Developer", "Aspiring Mathematician", "Haskell Enthusiast"]
 
 -- Breaks an individual word into it's letters, in an increasing sequence (i.e. the first letter, the first two letters, the first three letters ...) puts them all in a list
 hf = (map reverse).(scanl (\x y -> y:x) [])
