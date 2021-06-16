@@ -26,16 +26,52 @@ body{
 }
 
 .dcard {
+	position: relative; 
 	padding: 3rem;
 	background: #fcfbfa;
-	height: 8rem;
-	width: 20rem;
+	height: 10rem;
+	width: 26rem;
 	color: #44372f;
 	text-align: center;
 	box-shadow: 0 1px 2px 0 rgba(42, 33, 27, 0.15), 0 2px 4px 0 rgba(42, 33, 27, 0.06),
 		0 3px 14px 0 rgba(43, 34, 27, 0.1), 0 6px 35px 0 rgba(43, 34, 28, 0.25);
 }
 
-.subtit {
+.email {
+	position: absolute; 
+	top: 1.3rem; 
+	left: 1.4rem;
+
+	text-align: left;
 }
+
+.social {
+	position: absolute; 
+	top: 1.3rem; 
+	right: 1.4rem;
+
+	text-align: right;
+}
+
+.spacer{
+	height: 1.2rem;
+}
+
+.myname {
+	line-height: 1rem;
+}
+
+.subtitle {
+	height: 1rem;
+}
+
+.links {
+    	line-height: 3rem;
+}
+
+.textlink{
+  color: inherit;
+  text-decoration: underline;
+}
+
 
