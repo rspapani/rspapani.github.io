@@ -5,17 +5,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Mate+SC&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Benne&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@300&display=swap');
+@import url('https://db.onlinewebfonts.com/c/c8da3c58be0ab862c24357279216fe05?family=SF+Mono');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
 
 body{
-	background-color: #EFE0B9;
+	background-color: #ffffff;
+	
+	/*#EFE0B9;
 /*	font-family: 'Playfair Display', serif;
 	font-family: 'Barlow', sans-serif;
 	font-family: 'Libre Baskerville', serif;
 	font-family: 'Merriweather', serif;
 	font-family: 'Mate SC', serif;
 	font-family: 'Benne', serif;
-*/	
 	font-family: 'Tajawal', sans-serif;
+*/	
+	font-family: 'Tajawal' , sans-serif;
 	font-size: large; /* Only to be used with tajawal*/
 }
 
