@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Let's see Paul Allen's personal website</title>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mate+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Benne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@300&display=swap');
+@import url('https://db.onlinewebfonts.com/c/c8da3c58be0ab862c24357279216fe05?family=SF+Mono');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;800&display=swap');
+
+body {
+	  /*background-color: #f09075;
+	  background-image: linear-gradient(to right, #de356b, #de6d35);
+	  background-image: url( 'back1.svg' );
+	  */
+	
+	  background-color: #1e16f3;
+
+	  background-size: cover;
+	  background-repeat: no-repeat;
+	  
+	  /*#EFE0B9;
+/*	font-family: 'Playfair Display', serif;
+	font-family: 'Barlow', sans-serif;
+	font-family: 'Libre Baskerville', serif;
+	font-family: 'Merriweather', serif;
+	font-family: 'Mate SC', serif;
+	font-family: 'Benne', serif;
+	font-family: 'Tajawal', sans-serif;
+*/	
+	font-family: 'Public Sans' , sans-serif;
+	/*font-size: large; /* Only to be used with tajawal*/
+
+}
+
+
+.interactables {
+	  position: relative;
+	  /*right:20%;
+	    */
+	  left: 8%;
+	width: 92%;
+
+	align-items: left;
+	overflow-wrap: normal;
+}
+
+.onlyheading {
+	color: #f5f5f5;
+	font-size: 80px;
+	align-items: left;
+
+    padding : 0;
+    margin : 0;
+}
+
+.title {
+	  width: 60%;
+    padding-bottom: 30px;
+
+}
+
+.card-white {
+	  transition: 0.3s;
+	  width: 55%;
+	  border-radius: 7px;
+	  padding-top: 25px;
+	  padding-bottom: 5px;
+	  padding-left: 30px;
+	  padding-right: 30px;
+	  
+	  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+	     background-color: #f5f5f5;
+
+}
+
+.emphasis {
+  background-image: url( 'textback2.png' );
+
+    background-size: cover;
+	  background-repeat: no-repeat;
+	  font-weight: 800;
+	 
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+
+}
+
+.card-head {
+	font-size: 28px;
+	
+    padding : 0;
+    margin : 0;
+
+}
+
+.card-text {
+  text-align: justify;
+  text-justify: inter-word;
+  font-size:18px;
+
+}
+
+.card-white:hover {
+	  box-shadow: 0 8px 8px 0 rgba(0,0,0,0.4);
+}
+
+.headerr {
+	height: min-content;
+	width: min-content;
+
+	position: relative;
+	left: 58%;
+
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.headerelem {
+	color: #f5f5f5;
+	/*
+	padding: 6px 12px;
+	padding-top: 8px;
+	margin: 0;
+	*/
+	border-radius: 5px;
+	
+
+    background-image: linear-gradient(to right, rgba(1,0,0,0) 50%, #f5f5f5 50%);
+    background-size: 200% 100%;
+    -webkit-transition: background-position 0.4s;
+    -moz-transition: background-position 0.4s;
+    transition: background-position 0.4s;
+
+}
+
+.headerelem:hover {
+	    background-position: -100% 0;
+
+}
+
+.headertext {
+    background-image: linear-gradient(to right, #f5f5f5 50%, #0a0a0a 50%), url( 'textback.png' ) ;
+    background-size: 200% 100%;
+    -webkit-transition: background-position 0.4s;
+    -moz-transition: background-position 0.4s;
+    transition: background-position 0.4s;
+
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+
+	font-size: 30px;
+	font-weight: bold;
+
+
+	padding: 6px 10px;
+	padding-right: 12px;
+	padding-bottom: 7px;
+	margin: 0;
+	
+}
+
+.headertext:hover {
+	    background-position: -100% 0;
+
+	/*
+	background-image: url( 'textback.png' );
+    	background-size: cover;
+	background-repeat: no-repeat;
+	font-weight: 800;
+	 
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+    */
+}
+
+.spacer {
+	width: 25px;
+	height: 20px;
+}
+
+.spacer2 {
+	width: 10px;
+	height: 10px;
+}
+
+</style>
+
+  </head>
+  <body>
+
+	<div class="interactables">
+	  <div class="spacer"> </div>
+	  <div class="spacer2"> </div>
+	  <div class="headerr">
+		  <div class="headerelem">
+			  <p class="headertext"> About </p>
+		  </div>
+	  <div class="spacer"> </div>
+		  
+		  <div class="headerelem">
+			  <p class="headertext"> Projects </p>
+		  </div>
+	  <div class="spacer"> </div>
+
+
+		  <div class="headerelem">
+			  <p class="headertext"> Resume </p>
+		  </div>
+
+	  </div>
+	  <div class="spacer"> </div>
+	  <div class="spacer"> </div>
+	  <div class="spacer"> </div>
+
+	  <!--
+	  --!>
+		  <div class="title">
+			  <!--<h1 class="onlyheading"><b>Terrapins Only</b></h1> 
+	     --!>
+	     <p class="onlyheading"><b>Hi I'm Rishi Papani</b></p> 
+		  </div>
+
+		  <div class="card-white">
+		    <p class="card-head"><b>Software Engineer, College Student, and Linux Enthusiast</b></p> 
+		    <div class="card-text">
+		    <p> I'm currently a sophomore at the University of Maryland majoring in Computer Science and Mathematics.  I'm fluent in Python, passionate about Building Software, and interested in Data Analytics - I'll be pursuing all these this summer at Target as a Software Engineering intern.  In the meanwhile I'll be passing time by working on various side projects which you can find on <a href="https://github.com/rspapani" class="emphasis">github</a>, feel free to connect with me on <a href="https://www.linkedin.com/in/rspapani/" class="emphasis">LinkedIn</a> as well.  </p>
+		    <p> Wanna get in touch? you can contact me at <a href="mailto:rspapani@outlook.com" class="emphasis">rspapani@outlook.com</a></p>
+			    </div>
+		  </div>
+<!--
+		  <span class="spacer"></span>
+		  <span class="spacer"></span>
+		  <span class="spacer"></span>
+		  <span class="spacer"></span>
+
+	<div class="card-white">
+		    <h2 class="card-head"><b>Projects</b></h2> 
+		    <div class="card-text">
+		    <p><a href="https://optifocal.io" class="emphasis">Optifocal.io:</a> a Machine Learning application that determines whether or not someone is paying by using facial detection and gaze detection algorithms.</p>
+			    </div>
+		  </div>
+		  <span class="spacer"></span>
+		  <span class="spacer"></span>
+		  <span class="spacer"></span>
+	  </div> 
+	  --!>
+  </body>
+</html>
