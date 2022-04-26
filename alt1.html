@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+	  <link rel="icon" type="image/x-icon" href="favi.svg">
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -71,6 +72,7 @@ body {
 
 }
 
+
 .card-white {
 	  transition: 0.3s;
 	  width: 55%;
@@ -137,7 +139,8 @@ body {
 	margin: 0;
 	*/
 	border-radius: 5px;
-	
+	margin: 0;
+	padding: 0 0;	
 
     background-image: linear-gradient(to right, rgba(1,0,0,0) 50%, #f5f5f5 50%);
     background-size: 200% 100%;
@@ -167,10 +170,9 @@ body {
 	font-size: 30px;
 	font-weight: bold;
 
+	text-decoration: none;
 
-	padding: 6px 10px;
-	padding-right: 12px;
-	padding-bottom: 7px;
+
 	margin: 0;
 	
 }
@@ -191,6 +193,13 @@ body {
     */
 }
 
+.hlnk {
+	margin: 0;
+	display:inline-block;
+	padding: 6px 10px;
+	padding-right: 12px;
+	padding-bottom: 7px;
+}
 .spacer {
 	width: 25px;
 	height: 20px;
@@ -211,18 +220,18 @@ body {
 	  <div class="spacer2"> </div>
 	  <div class="headerr">
 		  <div class="headerelem">
-			  <p class="headertext"> About </p>
+			  <p class="headertext"> <a href="RSPapani-Resume.pdf" target="_blank" class="hlnk">About</a> </p>
 		  </div>
 	  <div class="spacer"> </div>
 		  
 		  <div class="headerelem">
-			  <p class="headertext"> Projects </p>
+			  <p  class="headertext"> <a href="RSPapani-Resume.pdf" target="_blank" class="hlnk">Projects</a> </p>
 		  </div>
 	  <div class="spacer"> </div>
 
 
 		  <div class="headerelem">
-			  <p class="headertext"> Resume </p>
+			  <p  class="headertext"> <a href="RSPapani-Resume.pdf" target="_blank" class="hlnk">Resume</a> </p>
 		  </div>
 
 	  </div>
@@ -241,26 +250,44 @@ body {
 		  <div class="card-white">
 		    <p class="card-head"><b>Software Engineer, College Student, and Linux Enthusiast</b></p> 
 		    <div class="card-text">
-		    <p> I'm currently a sophomore at the University of Maryland majoring in Computer Science and Mathematics.  I'm fluent in Python, passionate about Building Software, and interested in Data Analytics - I'll be pursuing all these this summer at Target as a Software Engineering intern.  In the meanwhile I'll be passing time by working on various side projects which you can find on <a href="https://github.com/rspapani" class="emphasis">github</a>, feel free to connect with me on <a href="https://www.linkedin.com/in/rspapani/" class="emphasis">LinkedIn</a> as well.  </p>
-		    <p> Wanna get in touch? you can contact me at <a href="mailto:rspapani@outlook.com" class="emphasis">rspapani@outlook.com</a></p>
+		    <p> I'm currently a sophomore at the University of Maryland majoring in Computer Science and Mathematics.  I'm fluent in Python, passionate about Building Software, and interested in Data Analytics - I'll be pursuing all these this summer at Target as a Software Engineering intern.  In the meanwhile I'll be passing time by working on various side projects which you can find on <a href="https://github.com/rspapani" class="emphasis" target="_blank">github</a>, feel free to connect with me on <a href="https://www.linkedin.com/in/rspapani/" class="emphasis" target="_blank">LinkedIn</a> as well.  </p>
+		    <p> Wanna get in touch? you can contact me at <a href="mailto:rspapani@outlook.com" class="emphasis" target="_blank">rspapani@outlook.com</a></p>
 			    </div>
 		  </div>
-<!--
-		  <span class="spacer"></span>
-		  <span class="spacer"></span>
-		  <span class="spacer"></span>
-		  <span class="spacer"></span>
 
-	<div class="card-white">
+	  <div class="spacer"> </div>
+	  <div class="spacer"> </div>
+	  <div class="spacer"> </div>
+	  <div class="spacer"> </div>
+	  <div class="spacer"> </div>
+	  <div class="spacer"> </div>
+	  <div class="spacer"> </div>
+	  <div class="spacer"> </div>
+
+		  <div class="card-white">
 		    <h2 class="card-head"><b>Projects</b></h2> 
 		    <div class="card-text">
-		    <p><a href="https://optifocal.io" class="emphasis">Optifocal.io:</a> a Machine Learning application that determines whether or not someone is paying by using facial detection and gaze detection algorithms.</p>
-			    </div>
+		    <p><a href="https://optifocal.io" class="emphasis">Optifocal.io:</a> a Machine Learning application that determines whether or not someone is paying by using facial detection and gaze detection algorithms.  Developed using the <b class="emphasis">DLib</b>, <b class="emphasis">OpenCV</b>, and <b class="emphasis">TensorFlow</b> libraries in Python for Machine Learning and Computer Vision functions along with NumPy to aid computations.</p>
+		    
+		    <p><a href="https://optifocal.io" class="emphasis">PhysPy:</a> A 2D Physics engine that accurately simulates rigid bodies, elastic collisions, gravity, and drag.  Developed by using Verlet integration to simulate a particle system, programmied in <b class="emphasis">Python</b> while using <b class="emphasis">NumPy</b> and <b class="emphasis">SciPy</b> for numerical calculations.</p>
+
+		    <p><a href="https://optifocal.io" class="emphasis">RoveX:</a> An iot enabled 4-wheel rover that streams live footage to a website, and can be controlled from the same server.  Built on the Raspberry Pi with Python being used for the Flask backend along with the robotics controls, and Javascript for the front-end.</p>
+<Down>
+		    <p><a href="https://optifocal.io" class="emphasis">MILL (MIPS Intermediary Logic Language):</a> A language that serves as an intermediary between MIPS Assembly and C for more expressive yet traditionally intuitive low-level programming with a compiler written in Python.  Allows one to abstract registers and stack frames withvariables, for/while loops, and function calls while still letting them be accessible in specific instances when desired.  It is a statically-typed post-fix language with support for functional programming concepts such as currying and passing functions as values.</p>
+
+		    <p><a href="https://optifocal.io" class="emphasis">Cupholder.exe:</a> A windows program written in C that uses a system() call to open the CD drive.</p>
+		    </div>
 		  </div>
-		  <span class="spacer"></span>
-		  <span class="spacer"></span>
-		  <span class="spacer"></span>
+	  <div class="spacer"> </div>
+	  <div class="spacer"> </div>
+	  <div class="spacer"> </div>
+	  <div class="spacer"> </div>
+	  <div class="spacer"> </div>
+	  <div class="spacer"> </div>
+	  <div class="spacer"> </div>
+	  <div class="spacer"> </div>
+	  <div class="spacer"> </div>
+	  <div class="spacer"> </div>
 	  </div> 
-	  --!>
   </body>
 </html>
