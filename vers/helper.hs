@@ -2,7 +2,7 @@
 -- Truly the worst way to go about things
 
 -- The word list
-wl = ["Student","Software Developer","Aspiring Mathematician","Haskell Enthusiast"]
+wl = ["Student","Software Developer","Machine Learning Engineer","Haskell Enthusiast"]
 
 sp (' ':_) = False
 sp _ = True
